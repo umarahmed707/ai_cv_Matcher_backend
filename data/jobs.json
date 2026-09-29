@@ -1,0 +1,129 @@
+[
+  {
+    "id": 1,
+    "title": "Frontend Developer",
+    "company": "Tech Studio",
+    "location": "Karachi",
+    "type": "Hybrid",
+    "experience_required": 1,
+    "skills": [
+      "React.js",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Tailwind CSS"
+    ],
+    "roles": [
+      "Frontend Developer",
+      "React Developer"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Python Developer",
+    "company": "Code Labs",
+    "location": "Remote",
+    "type": "Remote",
+    "experience_required": 1,
+    "skills": [
+      "Python",
+      "FastAPI",
+      "Django",
+      "REST API"
+    ],
+    "roles": [
+      "Python Developer",
+      "Backend Developer"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Graphic Designer",
+    "company": "Creative Studio",
+    "location": "Karachi",
+    "type": "Full-time",
+    "experience_required": 1,
+    "skills": [
+      "Figma",
+      "Adobe Photoshop",
+      "Illustrator",
+      "UI Design"
+    ],
+    "roles": [
+      "Graphic Designer",
+      "UI Designer"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Digital Marketing Executive",
+    "company": "Growth Media",
+    "location": "Remote",
+    "type": "Remote",
+    "experience_required": 1,
+    "skills": [
+      "SEO",
+      "Google Ads",
+      "Social Media Marketing",
+      "Content Marketing"
+    ],
+    "roles": [
+      "Digital Marketer",
+      "SEO Specialist"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "HR Assistant",
+    "company": "People First",
+    "location": "Karachi",
+    "type": "Full-time",
+    "experience_required": 0,
+    "skills": [
+      "Recruitment",
+      "MS Excel",
+      "Communication",
+      "Employee Records"
+    ],
+    "roles": [
+      "HR Assistant",
+      "HR Coordinator"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Junior Accountant",
+    "company": "FinanceHub",
+    "location": "Karachi",
+    "type": "Full-time",
+    "experience_required": 1,
+    "skills": [
+      "Excel",
+      "Basic Accounting",
+      "Data Entry",
+      "Financial Records"
+    ],
+    "roles": [
+      "Junior Accountant",
+      "Accounts Assistant"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Sales Executive",
+    "company": "Business Growth Co",
+    "location": "Karachi",
+    "type": "Full-time",
+    "experience_required": 1,
+    "skills": [
+      "Sales",
+      "Communication",
+      "Lead Generation",
+      "CRM"
+    ],
+    "roles": [
+      "Sales Executive",
+      "Business Development Executive"
+    ]
+  }
+]
