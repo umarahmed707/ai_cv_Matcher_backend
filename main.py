@@ -18,7 +18,7 @@ allowed_origins = [
     "http://localhost:5173",
     "http://127.0.0.1:5173",
 
-    "https://frontend-ecru-zeta-47.vercel.app/",
+    "https://frontend-ecru-zeta-47.vercel.app",
 ]
 
 app.add_middleware(
