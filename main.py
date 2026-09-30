@@ -9,24 +9,18 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from routers.cv_routes import router as cv_router
 
-
 app = FastAPI(
     title="AI CV Job Matcher API",
     version="1.0.0"
 )
 
-
-frontend_url = os.getenv("FRONTEND_URL")
-
-
 allowed_origins = [
     "http://localhost:5173",
     "http://127.0.0.1:5173",
+
+    # Tumhara actual frontend Vercel URL
+    "https://frontend-ecru-zeta-47.vercel.app/",
 ]
-
-if frontend_url:
-    allowed_origins.append(frontend_url)
-
 
 app.add_middleware(
     CORSMiddleware,
@@ -35,7 +29,6 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
 
 app.include_router(cv_router)
 
